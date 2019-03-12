@@ -1,0 +1,23 @@
+{
+  "name": "crypto-chat",
+  "version": "0.0.1",
+  "description": "Simple chat with end-2-end crypto",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "keywords": [
+    "chat",
+    "crypto",
+    "amcl"
+  ],
+  "author": "Konstantin Gudkov",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
